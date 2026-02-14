@@ -1,0 +1,140 @@
+#css 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: white;
+}
+
+/* Navbar */
+header {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #000, #333);
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 25px;
+    background: #f39c12;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background: #ffb84d;
+}
+
+/* About */
+.about {
+    padding: 60px;
+    text-align: center;
+    background: #1c1c1c;
+}
+
+/* Programs */
+.programs {
+    padding: 60px;
+    text-align: center;
+}
+
+.program-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #222;
+}
+
+/* Trainers */
+.trainers {
+    padding: 60px;
+    text-align: center;
+    background: #1c1c1c;
+}
+
+.trainer-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.trainer-card {
+    background: #222;
+    padding: 25px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* Contact */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
